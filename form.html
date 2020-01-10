@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Another Quiz by Ryu</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/script.js"></script>
+</head> 
+
+<body>
+<div class="header">
+    <h1>Ryu's Quiz</h1>
+    <div id="results">
+        <h2>You scored: Not yet attempted</h2>
+    </div>
+</div>
+
+<div class="body">
+    <form name="quiz" onsubmit="return onSubmit()">
+        <div class="question">
+            <h1>1. Who invent the Javascript Program Language?</h1>
+            <input type="radio" name="q1" value="a">a. Bill Gates<br>
+            <input type="radio" name="q1" value="b">b. Brendan Eich<br>
+            <input type="radio" name="q1" value="c">c. Steve Jobs<br>
+            <input type="radio" name="q1" value="d">d. Marc Andreessen<br>
+        </div>
+        <div class="question">
+            <h1>2. What does HTML stand for?</h1>
+            <input type="radio" name="q2" value="a">a. Hypertag Multiple Language<br>
+            <input type="radio" name="q2" value="b">b. Hyper-text Markup Language<br>
+            <input type="radio" name="q2" value="c">c. Highspeed Text Machine Language<br>
+            <input type="radio" name="q2" value="d">d. Hypertext Markup Language<br>
+        </div>
+        <div class="question">
+            <h1>3. What is correct tag to break the each line in HTML?</h1>
+            <input type="radio" name="q3" value="a">a. &lt;p&gt;<br>
+            <input type="radio" name="q3" value="b">b. &lt;br&gt;<br>
+            <input type="radio" name="q3" value="c">c. &lt;a&gt;<br>
+            <input type="radio" name="q3" value="d">d. &lt;div&gt;<br>
+        </div>
+        <div class="question">
+            <h1>4. What is the definition of function in Javascript?</h1>
+            <input type="radio" name="q4" value="a">a. It means define based on a condition object in Javascript<br>
+            <input type="radio" name="q4" value="b">b. It means declaration of syntactical statment in Javascript<br>
+            <input type="radio" name="q4" value="c">c. It means fundamental building block in Javascript<br>
+            <input type="radio" name="q4" value="d">d. It means define expression and excutes of the array in Javascript<br>
+        </div>
+        <div class="question">
+            <h1>5. How many types of function in Javascript?</h1>
+            <input type="radio" name="q5" value="a">a. Declaration function, arrow function, constructor function<br>
+            <input type="radio" name="q5" value="b">b. Anonymous function, var function, expression function<br>
+            <input type="radio" name="q5" value="c">c. Named function, Anonymous function, Immediately invoked function<br>
+            <input type="radio" name="q5" value="d">d. None of the above<br>
+        </div>
+        <button type="submit"> Submit Test </button>
+    </form>
+</div>
+  </body>
+</html>

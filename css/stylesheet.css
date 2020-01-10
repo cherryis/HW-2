@@ -1,0 +1,38 @@
+
+body {
+
+    background-image: url("http://toughcandy.co.za/wp-content/uploads/2015/10/web-background-images-hd-wallpapers-res-wallpaper-web-page-background-design-blue-pattern-white-cute-hijau-images-hd-wallpapers.jpg");
+   
+}
+.header{
+    background-image:linear-gradient(#b8f070,#9f96f0, #c9e64c);
+    text-align: center;
+    color: rgb(45, 28, 48);
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 5px;
+  
+}
+
+.body{  
+    text-align: center;
+    /*border-style: solid;
+    border: 3 3 3 3;
+    border-radius: 10px;
+    margin-top: 5px;*/
+}
+
+.question{
+    text-align: left;
+    font-size: 16px;
+    border-style: solid;
+    border: 10 10 10 10;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(163, 202, 165);
+}
